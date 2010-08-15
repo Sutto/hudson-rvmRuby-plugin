@@ -1,7 +1,7 @@
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout"
          xmlns:t="/lib/hudson" xmlns:f="/lib/form">
     <f:entry title="Ruby Interpreter" description="The ruby interpreter to use (if blank, your rvm default)">
-      <f:textbox name="ruby_string" value="${instance.ruby_string}" />
+      <f:textbox name="rubyString" value="${instance.rubyString}" />
     </f:entry>
     <f:entry title="Script"
              description="See &lt;a href='${rootURL}/env-vars.html' target=_new>the list of available environment variables&lt;/a>">
