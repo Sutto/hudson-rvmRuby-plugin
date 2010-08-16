@@ -1,4 +1,4 @@
-package hudson.plugins.ruby;
+package hudson.plugins.rvmRuby;
 
 import hudson.Extension;
 import hudson.FilePath;
@@ -73,12 +73,12 @@ public class Ruby extends CommandInterpreter {
     }
 
     public String getDisplayName() {
-      return "Execute Ruby script using a RVM Ruby";
+      return "Execute Ruby script (via a RVM Ruby)";
     }
 
     @Override
     public String getHelpFile() {
-      return "/plugin/ruby/help.html";
+      return "/plugin/rvmRuby/help.html";
     }
   }
 }

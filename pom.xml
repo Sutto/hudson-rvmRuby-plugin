@@ -6,9 +6,9 @@
         <version>1.318</version>
     </parent>
 
-    <artifactId>ruby</artifactId>
+    <artifactId>rvmRuby</artifactId>
     <packaging>hpi</packaging>
-    <version>1.3-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <name>Hudson Ruby Plugin (with RVM Support)</name>
     <url>http://github.com/Sutto/hudson-ruby-plugin-with-rvm</url>
 
