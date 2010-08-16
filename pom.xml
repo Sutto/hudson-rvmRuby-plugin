@@ -10,7 +10,7 @@
     <packaging>hpi</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>Hudson Ruby Plugin (with RVM Support)</name>
-    <url>http://github.com/Sutto/hudson-ruby-plugin-with-rvm</url>
+    <url>http://github.com/Sutto/hudson-rvmRuby-plugin</url>
 
     <developers>
       <developer>
