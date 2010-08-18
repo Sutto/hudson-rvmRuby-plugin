@@ -50,7 +50,7 @@ public class Ruby extends CommandInterpreter {
   }
 
   public void setRubyString(String rs) {
-    if(rs == null || rs.equals("")) rs = "default";
+    if(rs == null || rs.equals("")) rs = "default-with-rvmrc";
     this.rubyString = rs;
   }
 
