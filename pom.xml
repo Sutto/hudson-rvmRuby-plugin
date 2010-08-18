@@ -12,6 +12,12 @@
     <name>Hudson Ruby Plugin (with RVM Support)</name>
     <url>http://github.com/Sutto/hudson-rvmRuby-plugin</url>
 
+    <scm>
+      <connection>scm:git:git://github.com/Sutto/hudson-rvmRake-plugin.git</connection>
+      <developerConnection>scm:git:git@github.com:Sutto/hudson-rvmRake-plugin.git</developerConnection>
+      <url>http://github.com/Sutto/hudson-rvmRake-plugin</url>
+    </scm>
+
     <developers>
       <developer>
         <id>vivekp</id>
@@ -20,6 +26,7 @@
       <developer>
         <id>sutto</id>
         <name>Darcy Laycock</name>
+        <email>sutto@sutto.net</email>
       </developer>
     </developers>
 </project>
