@@ -29,7 +29,7 @@ public class Ruby extends CommandInterpreter {
     setRubyString(rubyString);
   }
 
-  protected String[] buildCommandLine(FilePath script) {
+  public String[] buildCommandLine(FilePath script) {
     return new String[] {"rvm", "--with-rubies", rubyString, "exec", "ruby", "-v", script.getRemote()};
   }
 
